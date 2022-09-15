@@ -1,0 +1,75 @@
+.skills{
+                    background-color: blueviolet;
+                    display: flex;
+                    gap: 0;
+}
+.skills ul{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 320px;
+                    position: relative;
+                    top: 4rem;
+                    right: 5rem;
+                    
+}
+.skills li{
+                    list-style-type: none;
+                    position: relative;
+                    top: 7rem;
+                    font-size: 20px;
+                    font-weight: 700;
+                    right: 6%;
+                    color: black;
+}
+.skills h1{
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                    left: 22%;
+                    top: 8%;
+                    color: black;
+                    text-decoration: underline;
+                  
+}
+.skills li:hover{
+                    cursor: pointer;
+                    color: white;
+                    transition: all 2s ease;
+
+}
+.icon{
+                    position: relative;
+                    right: 60%;
+                    top: 9rem;
+                    font-size: 1em;
+                    color: white;
+}
+
+/* MEDIA QUERY FOR MEDIUM DEVICES */
+
+@media screen  and (max-width: 800px) {
+                    .skills{
+                                        display: flex;
+                                        justify-content: center;
+                                        
+                    }
+                    .skills h1{
+                                        display: flex;
+                                        justify-content: center;
+                                        position: relative;
+                                        top: 20%;
+                                        left: 30%;
+                                        
+
+                    }
+                    .skills ul{
+                                        display: flex;
+                                        justify-content: center;
+                                        position: relative;
+                                        top: 10rem;
+                                        left: 0.2rem;
+                    }
+
+                    
+}

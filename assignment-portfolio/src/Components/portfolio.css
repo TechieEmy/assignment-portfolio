@@ -1,0 +1,97 @@
+.portfolio{
+                    background-color: blueviolet;
+                    overflow: hidden;
+                    
+}
+.portfolio h1{
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                    top: 2rem;
+}
+.portfolio ul{
+                    display: flex;
+                    flex-direction: row;
+                    height: 320px;
+                    position: relative;
+                    bottom: 80%;
+                    left: 12rem;
+}
+.portfolio li{
+                    list-style-type: none;
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                    cursor: default;
+}
+.active{
+                    color: white;
+                    
+
+}
+.container_portfolio{
+                    display: flex;
+                    justify-content: center;
+                    height: 320px;
+                    width: 70%;
+                    
+}
+.container_portfolio img{
+                    position: relative;
+                    bottom: 230%;
+                    width: 300px;
+                    height: 300px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    left: 13rem;
+                    padding: 0.3rem;
+                    border-radius: 1rem;
+                    
+                    
+                    
+}
+img:hover{
+                    cursor: pointer;
+                    padding: 0.6rem;
+                    transition: all 1s ease;
+}
+/* media query for small device */
+
+@media screen and (max-width: 800px) {
+
+                    .portfolio h1{
+                                        display: flex;
+                                        justify-content: center;
+                                        position: relative;
+                                        top: 4rem;
+                                        left: 2rem;
+                    }
+                    .portfolio ul{
+                                        display: flex;
+                                        flex-direction: row;
+                                        height: 300px;
+                                        position: relative;
+                                        bottom: 80%;
+                                        left: 12rem;
+                                        
+                    }
+                    .portfolio li{
+                                        list-style-type: none;
+                                        font-size: 1.2rem;
+                                        font-weight: 500;
+                                        cursor: default;
+                                        flex-wrap: wrap;
+                                        row-gap: 0px;
+                                        right: 3rem;
+                                        position: relative;
+                                        
+                    }
+                    .container_portfolio img{
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        position: relative;
+                                        align-content: center;
+                    }
+                    
+}
