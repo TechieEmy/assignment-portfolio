@@ -7,6 +7,7 @@ export default function Footer() {
     <div className='container'>
 
       <div className='container_wrapper-text'>
+      
       <h5>Facebook</h5>
       <h5>Whatsapp</h5>
       <h5>Hubspot</h5>
